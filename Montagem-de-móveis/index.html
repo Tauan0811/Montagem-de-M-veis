@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogério - Montador de Móveis</title>
+
+    <meta property="og:title" content="Rogério - Montador de Móveis">
+    <meta property="og:description" content="Montagem e desmontagem de móveis em Salvador com qualidade e confiança.">
+    <meta property="og:image" content="fotos/Móveis.jpeg">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="fotos/Sete-365-montagens.jpeg" type="image/png">
+    <link rel="apple-touch-icon" href="fotos/Sete-365-montagens.jpeg">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho / Navegação -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1><i class="fas fa-tools"></i> Rogério - Montador</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero / Banner Principal COM CARROSSEL -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h2>Montagem de Móveis</h2>
+            <p>Serviço de qualidade, precisão e cuidado com seus móveis novos em Salvador e região</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5571981518136?text=Olá%20Rogério,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20montagem%20de%20móveis." class="btn whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Pedir Orçamento
+                </a>
+                <a href="tel:+5571981518136" class="btn telefone-btn">
+                    <i class="fas fa-phone-alt"></i> (71) 98151-8136
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Carrossel de fotos -->
+            <div class="carousel-container">
+                <div class="carousel-slides">
+                    <!-- Slide 1 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Guarda-roupa-preto.jpeg" alt="Guarda-roupa montado" class="hero-photo">
+                        <div class="slide-caption">Guarda-roupas Modernos</div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Beliche-de-madeira.jpeg" alt="Beliche montado" class="hero-photo">
+                        <div class="slide-caption">Beliches e Camas de Solteiro</div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Prateleira-com-cadeira.jpeg" alt="Prateleira montada" class="hero-photo">
+                        <div class="slide-caption">Prateleiras e Organizadores</div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Guarda-roupa-branco.jpeg" alt="Guarda-roupa branco" class="hero-photo">
+                        <div class="slide-caption">Armários Brancos e Claros</div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Grada-roupa-espelhado.jpeg" alt="Guarda-roupa espelhado" class="hero-photo">
+                        <div class="slide-caption">Móveis com Espelhos</div>
+                    </div>
+                    <!-- Slide 6 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Estante-modular-aurora.jpeg" alt="Estante modular" class="hero-photo">
+                        <div class="slide-caption">Estantes Modulares</div>
+                    </div>
+                    <!-- Slide 7 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Armário-branco.jpeg" alt="Armário branco" class="hero-photo">
+                        <div class="slide-caption">Armários Brancos</div>
+                    </div>
+                    <!-- Slide 8 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Armário-de-cozinha-branco.jpeg" alt="Armário de cozinha branco" class="hero-photo">
+                        <div class="slide-caption">Armários de Cozinha</div>
+                    </div>
+                    <!-- Slide 9 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Armário-de-pia-branco.jpeg" alt="Armário de pia branco" class="hero-photo">
+                        <div class="slide-caption">Armários de Pia</div>
+                    </div>
+                    <!-- Slide 10 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Bancada-de-madeira-branca.jpeg" alt="Bancada de madeira branca" class="hero-photo">
+                        <div class="slide-caption">Bancadas de Madeira</div>
+                    </div>
+                    <!-- Slide 11 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Estante-modular-aurora-branca.jpeg" alt="Estante modular branca" class="hero-photo">
+                        <div class="slide-caption">Estantes Brancas</div>
+                    </div>
+                    <!-- Slide 12 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Mesa-com-cadeira.jpeg" alt="Mesa com cadeira" class="hero-photo">
+                        <div class="slide-caption">Mesas com Cadeiras</div>
+                    </div>
+                    <!-- Slide 13 -->
+                    <div class="carousel-slide">
+                        <img src="fotos/Mesa-de-madeira.jpeg" alt="Mesa de madeira" class="hero-photo">
+                        <div class="slide-caption">Mesas de Madeira</div>
+                    </div>
+                </div>
+                
+                <!-- Botões de navegação -->
+                <button class="carousel-btn prev-btn" aria-label="Foto anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next-btn" aria-label="Próxima foto">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <!-- Indicadores (bolinhas) -->
+                <div class="carousel-indicators">
+                    <button class="indicator active" data-slide="0" aria-label="Ir para slide 1"></button>
+                    <button class="indicator" data-slide="1" aria-label="Ir para slide 2"></button>
+                    <button class="indicator" data-slide="2" aria-label="Ir para slide 3"></button>
+                    <button class="indicator" data-slide="3" aria-label="Ir para slide 4"></button>
+                    <button class="indicator" data-slide="4" aria-label="Ir para slide 5"></button>
+                    <button class="indicator" data-slide="5" aria-label="Ir para slide 6"></button>
+                    <button class="indicator" data-slide="6" aria-label="Ir para slide 7"></button>
+                    <button class="indicator" data-slide="7" aria-label="Ir para slide 8"></button>
+                    <button class="indicator" data-slide="8" aria-label="Ir para slide 9"></button>
+                    <button class="indicator" data-slide="9" aria-label="Ir para slide 10"></button>
+                    <button class="indicator" data-slide="10" aria-label="Ir para slide 11"></button>
+                    <button class="indicator" data-slide="11" aria-label="Ir para slide 12"></button>
+                    <button class="indicator" data-slide="12" aria-label="Ir para slide 13"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre</h2>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p>Olá, sou o Rogério, montador de móveis com anos de experiência no mercado. Trabalho com precisão, agilidade e cuidado, garantindo que seus móveis sejam montados corretamente na primeira vez.</p>
+                    <p>Já montei centenas de móveis de diferentes marcas e modelos, sempre focando na satisfação do cliente e na qualidade do serviço prestado em Salvador e região metropolitana.</p>
+                    <div class="qualidades">
+                        <div class="qualidade">
+                            <i class="fas fa-clock"></i>
+                            <h4>Entrega Rápida</h4>
+                            <p>Montagem ágil sem perder a qualidade</p>
+                        </div>
+                        <div class="qualidade">
+                            <i class="fas fa-award"></i>
+                            <h4>Qualidade Garantida</h4>
+                            <p>Serviço com garantia de satisfação</p>
+                        </div>
+                        <div class="qualidade">
+                            <i class="fas fa-toolbox"></i>
+                            <h4>Ferramentas Profissionais</h4>
+                            <p>Equipamento adequado para cada trabalho</p>
+                        </div>
+                        <div class="qualidade">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Serviço Seguro</h4>
+                            <p>Cuidado com seus móveis e sua residência</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <h2 class="section-title">Meus Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <i class="fas fa-couch"></i>
+                    <h3>Montagem de Sofás</h3>
+                    <p>Montagem de sofás de todos os modelos e marcas.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-bed"></i>
+                    <h3>Montagem de Camas</h3>
+                    <p>Camas box, beliches, cabeceiras e estruturas completas.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-archive"></i>
+                    <h3>Armários e Guarda-Roupas</h3>
+                    <p>Montagem de armários embutidos, guarda-roupas e closets.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Móveis de Cozinha</h3>
+                    <p>Balcões, armários de cozinha e móveis sob medida.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Escritório</h3>
+                    <p>Mesas, cadeiras, estantes e móveis para home office.</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Serviços Gerais</h3>
+                    <p>Estantes, prateleiras, móveis de banheiro e muito mais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <h2 class="section-title">Galeria de Trabalhos</h2>
+            <p class="section-subtitle">Confira alguns dos meus trabalhos realizados</p>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="fotos/Guarda-roupa-preto.jpeg" alt="Guarda-roupa preto moderno">
+                    <p>Guarda-roupa Preto Moderno</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Prateleira-com-cadeira.jpeg" alt="Prateleira com cadeira">
+                    <p>Prateleira com Cadeira de Escritório</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Beliche-de-madeira.jpeg" alt="Beliche de madeira">
+                    <p>Beliche de Madeira Resistente</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Guarda-roupa-branco.jpeg" alt="Guarda-roupa branco">
+                    <p>Guarda-roupa Branco Elegante</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Grada-roupa-espelhado.jpeg" alt="Guarda-roupa espelhado">
+                    <p>Guarda-roupa com Portas Espelhadas</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Estante-modular-aurora.jpeg" alt="Estante modular">
+                    <p>Estante Modular Aurora</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Armário-branco.jpeg" alt="Armário branco">
+                    <p>Armário Branco Moderno</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Armário-de-cozinha-branco.jpeg" alt="Armário de cozinha branco">
+                    <p>Armário de Cozinha Branco</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Armário-de-pia-branco.jpeg" alt="Armário de pia branco">
+                    <p>Armário de Pia Branco</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Bancada-de-madeira-branca.jpeg" alt="Bancada de madeira branca">
+                    <p>Bancada de Madeira Branca</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Estante-modular-aurora-branca.jpeg" alt="Estante modular branca">
+                    <p>Estante Modular Branca</p>
+                </div>
+                <div class="galeria-item">
+                    <img src="fotos/Mesa-com-cadeira.jpeg" alt="Mesa com cadeira">
+                    <p>Mesa com Cadeira de Escritório</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>Entre em contato para orçamentos, dúvidas ou agendamentos. Respondo rapidamente!</p>
+                    
+                    <div class="contato-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp (Recomendado)</h4>
+                            <p>Respondo mais rápido pelo WhatsApp com orçamentos</p>
+                            <a href="https://wa.me/5571981518136?text=Olá%20Rogério,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20montagem%20de%20móveis." class="btn whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Pedir Orçamento
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contato-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Telefone para Ligação</h4>
+                            <p>Prefere ligar? Estou disponível!</p>
+                            <a href="tel:+5571981518136" class="btn telefone-btn">
+                                <i class="fas fa-phone-alt"></i> (71) 98151-8136
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Área de Atendimento</h4>
+                            <p>Salvador e região metropolitana</p>
+                            <p class="aviso">*Consulte disponibilidade para outras regiões</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-tools"></i> Rogério - Montador de móveis</h3>
+                    <p>Serviço de montagem de móveis com qualidade e agilidade em Salvador</p>
+                    <div class="contato-footer">
+                        <p><i class="fas fa-phone-alt"></i> (71) 98151-8136</p>
+                        <p><i class="fab fa-whatsapp"></i> WhatsApp disponível</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Salvador/BA</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="https://wa.me/5571981518136?text=Olá%20Rogério,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20montagem%20de%20móveis." target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="tel:+5571981518136" title="Ligar para (71) 98151-8136">
+                            <i class="fas fa-phone-alt"></i>
+                        </a>
+                    </div>
+                    <p class="telefone-rodape">
+                        <i class="fas fa-phone-alt"></i> (71) 98151-8136
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Rogério - Montador. Todos os direitos reservados.</p>
+                <p>Site desenvolvido por Tauan Neves</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão flutuante do WhatsApp -->
+    <a href="https://wa.me/5571981518136?text=Olá%20Rogério,%20gostaria%20de%20solicitar%20um%20orçamento%20para%20montagem%20de%20móveis." class="float-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
